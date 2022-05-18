@@ -1,0 +1,173 @@
+<main role="main" class="container text-center">
+    <div class="profile">
+        <img src="images/avatar.svg" />
+        <div class="profile__info">
+             <div class="profile__info__header">
+                <span class="profile__info__header__name">
+                    Mist
+                </span>
+                <span class="profile__info__header__suffix">
+                    coding has become a part of my life
+                </span>
+            </div>
+            <div class="profile__info__sub_header">
+                Software Engineer & < Web  />  | Native() developer
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="section-text">
+            Focus on the Developer experience.
+        </div>
+        <div class="section-text">
+            Haskell beginner. one of Rustaceans. Gopher & JS/TS Stack ♡
+        </div>
+    </section>
+
+    <section>
+        <div class="section-text">
+            Welcome to zzhack (WIP)
+        </div>
+        <div class="section__links">
+            <a class="section__link link" href="https://zzhack.fun">Posts</a>
+            <a class="section__link link" href="https://zzhack.fun">Projects</a>
+            <a class="section__link link" href="https://zzhack.fun">Links</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-text">
+            May you wanna connet with me
+        </div>
+        <div class="section__links">
+            Email: <a href="mailto://mist.zzh@gmail.com" class="section__link link">mist.zzh@gmail.com</a>
+        </div>
+        <div class="contacts">
+            <a class="link" href="https://github.com/mistricky">GitHub</a>
+            <div class="separator"></div>
+            <a class="link" href="https://twitter.com/_mistricky">Twitter</a>
+            <div class="separator"></div>
+            <a class="link" href="https://t.me/immimmimmi">Telegram</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__text">
+            Rendered via WebAssembly, written in Golang ♡ Vugu.
+            <img src="images/gopher.svg" class="gopher" />
+        </div>
+    </footer>
+ </main>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+<style>
+    html, body {
+        background: #24292E;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section {
+        margin-top: 30px;
+    }
+
+    .footer__text {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .gopher {
+        margin-left: 6px;
+    }
+
+    .separator {
+        width: 1.5px;
+        border-radius: 10px;
+        height: 13px;
+        background: #D6D8DA;
+        margin: 0 10px;
+    }
+
+    .contacts {
+        display: flex;
+        align-items: center;
+        margin-top: 6px;
+    }
+
+    .link {
+        font-weight: bold;
+        color: #93C5FD;
+        line-height: 21px;
+        font-size: 15px;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+
+    .section__link {
+        margin-right: 19px;
+    }
+
+    .section__link:hover {
+        text-decoration: underline;
+    }
+
+    .container {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+    }
+
+    .profile__info {
+        margin-left: 20px;
+    }
+
+    .profile__info__header__suffix {
+        color: #9CA3AF;
+        margin-left: 10px;
+    }
+
+    .profile__info__header {
+        display: flex;
+        align-items: center;
+    }
+
+    .profile__info__header__name {
+        font-weight: bold;
+        font-size: 23px;
+    }
+
+    .profile__info__sub_header {
+        color: #9CA3AF;
+    }
+
+    * {
+        font-family: 'Mulish', sans-serif;
+        line-height: 1.8;
+        font-size: 16px;
+        color: #D6D8DA;
+    }
+</style>
+
+<script type="application/x-go">
+
+// import "time"
+
+type Root struct {
+    ShowWasm bool `vugu:"data"`
+    ShowGo bool   `vugu:"data"`
+    ShowVugu bool `vugu:"data"`
+}
+    
+</script>
