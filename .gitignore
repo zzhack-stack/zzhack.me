@@ -2,3 +2,4 @@ bin
 **_vgen.go
 .vscode
 .idea
+dist
